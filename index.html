@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar + Carousel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-logo">JS SLIDER</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <main>
+        <div class="container">
+            <div class="carousel">
+                <div class="carousel-inner" id="carousel-inner">
+                    <div class="slide active">
+                        <img src="./img/carousel-1.jpg" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/carousel-2.jpg" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/carousel-3.jpg" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/carousel-4.jpg" alt="Image 4">
+                    </div>
+                </div>
+                <button class="carousel-button prev" onclick="prevSlide()">❮</button>
+                <button class="carousel-button next" onclick="nextSlide()">❯</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
